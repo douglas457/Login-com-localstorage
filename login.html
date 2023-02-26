@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <main class="container">
+        <div class="pai-entrar">
+            <form>
+                <h1>Entrar</h1>
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                <input type="email" id="loginEntrar" class="form-control" />
+                <label class="form-label" for="form1Example1">Email address</label>
+                </div>
+            
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                <input type="password" id="passwordEntrar" class="form-control" />
+                <label class="form-label" for="form1Example2">Password</label>
+                </div>
+            
+                <!-- 2 column grid layout for inline styling -->
+                <div class="row mb-4">
+                <div class="col d-flex justify-content-center">
+                    <!-- Checkbox -->
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                    <label class="form-check-label" for="form1Example3"> Remember me </label>
+                    </div>
+                </div>
+            
+                <div class="col">
+                    <!-- Simple link -->
+                    <a href="#!">Forgot password?</a>
+                </div>
+                </div>
+            
+                <!-- Submit button -->
+                
+
+            </form>
+            <button type="submit" class="btn btn-primary btn-block btn-entrar" id="btnEntrar">Entrar</button>
+            
+        </div>
+
+                <!-- Cadastrar section -->
+
+        <div class="pai-cadastrar">
+            <form>
+                <h1>Cadastrar</h1>
+
+                <div class="form-outline mb-4">
+                    <input type="text" id="nomeCadastrar" class="form-control" />
+                    <label class="form-label" for="form1Example1">Nome</label>
+                    </div>
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                <input type="email" id="loginCadastrar" class="form-control" />
+                <label class="form-label" for="form1Example1">Email</label>
+                </div>
+            
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                <input type="password" id="passwordCadastrar" class="form-control" />
+                <label class="form-label" for="form1Example2">Password</label>
+                </div>
+            
+                <!-- 2 column grid layout for inline styling -->
+                <div class="row mb-4">
+                <div class="col d-flex justify-content-center">
+                    <!-- Checkbox -->
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                    <label class="form-check-label" for="form1Example3"> Remember me </label>
+                    </div>
+                </div>
+            
+                <div class="col">
+                    <!-- Simple link -->
+                    <a href="#!">Forgot password?</a>
+                </div>
+                </div>
+            
+                <!-- Submit button -->
+                <button type="button" class="btn btn-primary btn-block" id="btnCadastrar">Cadastrar</button>
+
+            </form>
+        </div>
+    </main>
+    <script src="./JS/login.js"></script>
+</body>
+</html>

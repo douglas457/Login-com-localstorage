@@ -1,0 +1,35 @@
+body {
+    background-color: #1c293c;
+}
+
+.pai-entrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+form {
+    background-color: #b1d1ff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 308px;
+}
+
+.btn-entrar {
+    margin: 10px;
+}
+
+
+
+/* Cadastrar */
+
+.pai-cadastrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

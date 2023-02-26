@@ -1,0 +1,20 @@
+body {
+    background: url(https://cdn.discordapp.com/attachments/995374233901355089/999005134833074307/6imstsw096g71.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+main {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column; 
+}
+
+.btn {
+    width: 200px;
+    margin: 10px;
+}
