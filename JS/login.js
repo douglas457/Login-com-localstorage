@@ -26,7 +26,7 @@ function logar() {
             localStorage.setItem("acesso", true);
             alert('Ok');
 
-            window.location.href = "home.html"
+            window.location.href = "index.html"
         }   
     }
 }
